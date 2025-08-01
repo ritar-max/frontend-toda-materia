@@ -1,0 +1,24 @@
+nav { background-color: rgb(9, 0, 61);
+
+}
+nav > div{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ nav > div > div{ 
+    background-color: rgb(70, 70, 219);
+    display: flex;
+ }
+ nav a{ 
+    color: rgb(253, 253, 253);
+    font-weight: bolder;
+    text-decoration: none;
+    padding: .5em .3em;
+    display: inline-block;
+ }
+ nav > div ul{
+    display: none;
+    list-style: none;
+ }
